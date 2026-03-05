@@ -1,0 +1,25 @@
+package com.example.escola_xyz.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+
+//anotação da Classe Controller (interagir View a Model)
+@Controller
+public class IndexController {
+    
+    //médoto mais completo de buscar uma página
+    @GetMapping("/home")
+    public ModelAndView acessoHomePage() {
+        ModelAndView mv = new ModelAndView("index");
+        return mv;
+    }
+
+    //método mais simples de buscar uma página
+    @GetMapping("")
+    public String acessoHomePage2() {
+        return "index";
+    }
+    
+}
