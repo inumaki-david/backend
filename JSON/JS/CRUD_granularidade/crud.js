@@ -1,5 +1,5 @@
 const fs = require("fs");
-const prompt = require("prompt-sync");
+const prompt = require("prompt-sync")();
 
 // Menu Principal
 function menu() {
@@ -32,7 +32,7 @@ function lerDados() {
     return JSON.parse(dados);
 }
 
-function salvarDados() {
+function salvarDados(dados) {
     fs.writeFileSync("contatos.json", JSON.stringify(dados, null, 2));
 }
 

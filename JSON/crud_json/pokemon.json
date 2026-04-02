@@ -1,0 +1,18 @@
+{
+  "treinadores": [
+    {
+      "nome": "Ash",
+      "tipo": "Treinador"
+    }
+  ],
+  "pokemons": [
+    {
+      "nome": "Mew",
+      "tipo": "Psiquico"
+    },
+    {
+      "nome": "Squirtle",
+      "tipo": "Água"
+    }
+  ]
+}
