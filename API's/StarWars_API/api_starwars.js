@@ -63,7 +63,7 @@ async function consultarPlaneta() {
         console.log(`Porcentagem de Água na Superfície: ${dados.surface_water}`);
         
     } catch (erro) {
-        console.log("[Erro]: ID do Planeta não encontrado. Tente novamente");
+        console.log("[Erro]: ID do Planeta não encontrado. Tente novamente.");
     }
 }
 
