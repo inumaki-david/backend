@@ -167,7 +167,7 @@ async function main () {
                 await consultarNaves();
                 break;
             case "7":
-                console.log("\nSaindo da API de Star Wars... Que a força esteja com você!")
+                console.log("\nSaindo da API de Star Wars... Que a força esteja com você!\n")
                 break;
             default: 
                 console.log("\n[Erro]: Escolha Inválida.")
