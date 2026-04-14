@@ -137,6 +137,11 @@ async function consultarVeiculos() {
     }
 }
 
+//função para consultar as naves estelares
+async function consultarNaves() {
+    const id = prompt("Digite o ID da Nave Estelar")
+}
+
 //função principal main
 async function main () {
     let escolha;
@@ -159,7 +164,7 @@ async function main () {
                 await consultarVeiculos();
                 break;
             case "6":
-                //aqui vai ficar a função para as naves 
+                await consultarNaves();
                 break;
             case "7":
                 console.log("\nSaindo da API de Star Wars... Que a força esteja com você!")

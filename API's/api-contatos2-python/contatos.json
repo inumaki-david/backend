@@ -1,0 +1,14 @@
+{
+  "alunos": [
+    {
+      "nome": "Davi Martins",
+      "telefone": "19993349723"
+    }
+  ],
+  "professores": [
+    {
+      "nome": "Davi Dev Prof",
+      "telefone": "19996666767"
+    }
+  ]
+}
