@@ -1,0 +1,30 @@
+{
+    "clientes": [
+        {
+            "id": 1,
+            "nome": "Davi Martins",
+            "data_nasc": "2008-07-30",
+            "ativo": true,
+            "cpf": "123.456.789-00",
+            "rg": "12.345.678-9",
+            "telefone": "19999887766",
+            "email": "contato@gmail.com",
+            "cep": "12345-678",
+            "data_cadastro": "2024-10-05",
+            "cliente_vip": true
+        },
+        {
+            "id": 2,
+            "nome": "Jorge Diogo",
+            "data_nasc": "1987-09-14",
+            "ativo": false,
+            "cpf": "987.654.321-00",
+            "rg": "98.765.432-1",
+            "telefone": "19222334455",
+            "email": "professor@gmail.com",
+            "cep": "98765-432",
+            "data_cadastro": "2017-03-17",
+            "cliente_vip": false
+        }
+    ]
+}

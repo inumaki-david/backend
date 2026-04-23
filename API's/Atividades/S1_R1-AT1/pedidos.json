@@ -1,0 +1,28 @@
+{
+    "pedidos": [
+        {
+            "id_pedido": 22,
+            "id_cliente": 1,
+            "data_pedido": "2026-04-23",
+            "valor_total": 150.99,
+            "qntd_produtos": 4,
+            "metodo_envio": "expresso",
+            "endereco_entrega": "Rua Balacobaco, 123",
+            "codigo_rastreio": "ABC1234567",
+            "pagamento_confirmado": true,
+            "entrega_concluida": false
+        },
+        {
+            "id_pedido": 54,
+            "id_cliente": 2,
+            "data_pedido": "2026-02-19",
+            "valor_total": 234.90,
+            "qntd_produtos": 6,
+            "metodo_envio": "padrão",
+            "endereco_entrega": "Rua Orasbolas, 456",
+            "codigo_rastreio": "DEF9876543",
+            "pagamento_confirmado": false,
+            "entrega_concluida": false
+        }
+    ]
+}
