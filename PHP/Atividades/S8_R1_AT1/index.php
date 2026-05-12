@@ -29,7 +29,6 @@
         function calcularTotal($preco, $quantidade) {
             return $preco * $quantidade;
         }
-
         // Função 2: Formata a exibição do produto - Reutilizada no loop
         function exibirItem($nome, $valorFinal) {
             echo "<div style='border-bottom: 1px solid #ddd; padding: 10px 0;'>";
@@ -37,14 +36,12 @@
             echo "<strong>Total em Estoque:</strong> R$ " . number_format($valorFinal, 2, ',', '.');
             echo "</div>";
         }
-
         // Dados para processamento
         $produtos = [
             ["nome" => "Monitor OLED", "preco" => 3000, "qtd" => 5],
             ["nome" => "PS5", "preco" => 4500, "qtd" => 2],
             ["nome" => "Notebook", "preco" => 3500, "qtd" => 3],
         ];
-    
         foreach ($produtos as $p) {
             // Reutilizando as funções para processar e exibir
             $total = calcularTotal($p["preco"], $p["qtd"]);
