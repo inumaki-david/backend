@@ -83,6 +83,8 @@
                 exibirCampo("Nickname: ", $_POST["nome"]);
                 exibirCampo("Email: ", $_POST["email"]);
                 exibirCampo("Ano de Nascimento: ", $_POST["anoNasc"]);
+            } else {
+                echo "Aguardando Dados...";
             }
         ?>
     </div>
