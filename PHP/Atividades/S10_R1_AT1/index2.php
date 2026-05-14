@@ -8,7 +8,7 @@
 
     <h2>Página 2 - Informações Guardadas</h2>
 
-    <div style="background-color: #f8f9fa; padding: 15px; border-left: 4px solid #1a73e8; margin-top: 20px;">
+    <div style="background-color: #f8f9fa; padding: 15px; border-right: 4px solid #1a73e8; margin-top: 20px;">
         
         <p><strong>Nome do Utilizador (recuperado da Sessão):</strong><br>
             <?php 
