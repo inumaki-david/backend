@@ -146,7 +146,7 @@
     ?>
 
     <form method="POST" action="">
-        <h2>Mega-Sena</h2>
+        <h2>Sorteador Mega da Virada</h2>
         <label class="titulo">Selecione os seus 6 números da sorte:</label>
         
         <div class="grid-numeros">
